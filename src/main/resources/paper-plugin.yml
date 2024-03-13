@@ -1,0 +1,4 @@
+name: infinite-dungeon-extension
+version: '${version}'
+main: fr.elite.infinitedungeon.infinitedungeonextension.Infinite_dungeon_extension
+api-version: '1.19'
