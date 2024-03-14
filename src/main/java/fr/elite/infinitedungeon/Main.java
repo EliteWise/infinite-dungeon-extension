@@ -1,8 +1,8 @@
-package fr.elite.infinitedungeon.infinitedungeonextension;
+package fr.elite.infinitedungeon;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Infinite_dungeon_extension extends JavaPlugin {
+public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {

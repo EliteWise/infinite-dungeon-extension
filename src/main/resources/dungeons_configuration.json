@@ -1,0 +1,55 @@
+[
+  {
+    "start_command": "idj start",
+    "leave_command": "idj leave",
+    "reward_command": "idj reward",
+    "start_message": "Le donjon infini démarrera dans 20 secondes",
+    "teleport_message": "Téléportation en cours…",
+    "gamemode": "hardcore",
+    "first_item": "WOODEN_SWORD",
+    "end_room_message": "Vous venez de terminer la salle {room_number}",
+    "end_room_sound": "",
+    "end_message": "Vous avez quitté le donjon infini à la salle {room_number}. Effectuez la commande /idj reward pour obtenir votre récompense.",
+    "reward_error_message": "Votre inventaire est trop rempli pour obtenir vos récompenses. Libérez de la place et effectuez à nouveau la commande /idj reward.",
+    "reward_message": "Vous avez obtenu vos récompenses.",
+    "pnj": {
+      "after_loot_rooms": 2,
+      "items_for_trade": [
+        {
+          "item": "EMERALD",
+          "number": 1,
+          "price": 10,
+          "proba": 30,
+          "room_max_proba": 5,
+          "room_number": 3
+        },
+        {
+          "item": "DIAMOND",
+          "number": 2,
+          "price": 20,
+          "proba": 50,
+          "room_max_proba": 10,
+          "room_number": 5
+        }
+      ]
+    },
+    "rewards": [
+      {
+        "item": "EMERALD",
+        "number": 1,
+        "price": 10,
+        "proba": 30,
+        "room_max_proba": 5,
+        "room_number": 3
+      },
+      {
+        "item": "DIAMOND",
+        "number": 2,
+        "price": 20,
+        "proba": 50,
+        "room_max_proba": 10,
+        "room_number": 5
+      }
+    ]
+  }
+]
