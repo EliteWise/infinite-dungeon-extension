@@ -6,8 +6,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        this.getCommand("idj").setExecutor(new IDJCommand());
     }
 
     @Override
